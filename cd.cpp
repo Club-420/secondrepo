@@ -17,9 +17,16 @@ float division(int x,int y){
 int incre(int x){
     return ++x;
 }
+int factorial( int b){
+    int result = 1;
+    for( int i = 1; i <= b; i++){
+        result = result * i;
+    }
+    return result;
+}
 int main()
 {
-    int a = 2, b = 2, c,d,e,f,g;
+    int a = 2, b = 2, c,d,e,f,g, fac;
     float div;
     c = multiply(a, b);
     d=add(a,b);
@@ -27,6 +34,7 @@ int main()
     div=division(a,b);
     f=incre(a);
     g=incre(b);
+    fac = factorail( b );
     return 0;
 }
 
