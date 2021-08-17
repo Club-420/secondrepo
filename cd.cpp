@@ -22,6 +22,7 @@ int main()
     d=add(a,b);
     e=sub(a,b);
     div=division(a,b);
-    cout << c;
-    return 0;
+int dividegar(int x, int y){
+    return x/y;
 }
+
