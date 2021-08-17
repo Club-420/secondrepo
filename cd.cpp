@@ -5,8 +5,10 @@ int multiply(int, int);
 
 int main()
 {
-    int a = 2, b = 2, c;
+    int a = 2, b = 2, c,d,e;
     c = multiply(a, b);
+    d=add(a,b);
+    e=sub(a,b);
     cout << c;
     return 0;
 }
