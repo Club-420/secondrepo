@@ -34,7 +34,14 @@ int main()
     div=division(a,b);
     f=incre(a);
     g=incre(b);
-    fac = factorail( b );
+    fac = factorial( b );
+    cout<<"mul "<<c<<endl;
+    cout<<"add "<<d<<endl;
+    cout<<"sub "<<e<<endl;
+    cout<<"division "<<div<<endl;
+    cout<<"incre "<<f<<endl;
+    cout<<"factorial "<<fac;
+    
     return 0;
 }
 
